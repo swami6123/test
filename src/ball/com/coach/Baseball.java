@@ -7,4 +7,10 @@ public class Baseball implements Coach {
 		return "play";
 	}
 
+	@Override
+	public String hockeyteam() {
+		// TODO Auto-generated method stub
+		return "test baseball";
+	}
+
 }

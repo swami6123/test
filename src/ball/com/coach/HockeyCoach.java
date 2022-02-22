@@ -1,16 +1,15 @@
 package ball.com.coach;
 
-public class Cricket implements Coach {
+public class HockeyCoach implements Coach{
 
 	@Override
 	public String ball() {
-		return "Iam a cricket coach";
+		return "Its time for ball";
 	}
-
-	@Override
+@Override
 	public String hockeyteam() {
 		// TODO Auto-generated method stub
-		return "Test cricket and hockey";
+		return "Its time for hockey";
 	}
 
 }
